@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Pano2VR project file  -->
+<pano2vrconfig rev="17873" version="6.1.2">
+  <tour>
+    <panorama>
+      <id>node1</id>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>C:/Users/joaco/AppData/Local/Packages/AD2F1837.HPQuickDrop_v10z8vjag6ke6/LocalState/My Received Files/output - copia (2).JPG</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan/>
+        <tilt/>
+        <fov/>
+        <flyinstart/>
+        <pannorth>233</pannorth>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2021-04-16T17:39:28</capturedatetime>
+        <latitude>-34.588539</latitude>
+        <longitude>-58.418606</longitude>
+        <altitude>17.2728</altitude>
+        <datetime>16/4/2021 17:39</datetime>
+        <tags>My Received Files</tags>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-81.33</pan>
+            <tilt>0.08</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Dormitorio</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node2}</url>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <animation/>
+    </panorama>
+    <panorama>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>C:/Users/joaco/AppData/Local/Packages/AD2F1837.HPQuickDrop_v10z8vjag6ke6/LocalState/My Received Files/output - copia (4).JPG</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan/>
+        <tilt/>
+        <fov/>
+        <flyinstart/>
+        <pannorth>137</pannorth>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2021-04-16T18:01:31</capturedatetime>
+        <latitude>-34.588578</latitude>
+        <longitude>-58.418514</longitude>
+        <altitude>15.7783</altitude>
+        <datetime>16/4/2021 18:01</datetime>
+        <tags>My Received Files</tags>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-56.79</pan>
+            <tilt>0.32</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Balcon</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node1}</url>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node2</id>
+    </panorama>
+  </tour>
+  <panorama>
+    <id>master</id>
+    <input>
+      <patch/>
+    </input>
+    <viewingparameter>
+      <pan/>
+      <tilt/>
+      <fov/>
+      <flyinstart/>
+    </viewingparameter>
+    <userdata/>
+    <floorplans/>
+    <hotspots/>
+    <output>
+      <placeidcache>{"entries":[]}</placeidcache>
+      <htmlcss>
+        <html>
+          <enabled>1</enabled>
+          <filename>C:/Users/joaco/Pictures/Laburo/Julian Alvarez/360°/index.html</filename>
+          <values>
+            <value id="css"></value>
+            <value id="gginfo">false</value>
+            <value id="htmltitle">$(upt)</value>
+            <value id="jsxml">false</value>
+            <value id="parseanchor">false</value>
+          </values>
+        </html>
+        <facequality/>
+        <transition/>
+        <autorotate/>
+        <soundstransition/>
+        <flyintransition/>
+        <hotspottext/>
+        <hotspotstyle/>
+        <webvr/>
+        <tilesize>3195</tilesize>
+        <filename>C:/Users/joaco/Pictures/Laburo/Julian Alvarez/360°/pano.xml</filename>
+      </htmlcss>
+    </output>
+    <streetview/>
+    <streetviewproject/>
+    <sounds/>
+    <animation>
+      <title>Animation01</title>
+      <sequence/>
+    </animation>
+  </panorama>
+</pano2vrconfig>
